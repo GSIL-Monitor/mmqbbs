@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: pro
+logging:
+  #指定日志的等级，可以对不同包采用不同的等级，比如如下配置就是将root的等级设置为info，将com.example设置为debug
+  level: {root: info}
+  #file是设置日志的输出的路径，这里需要注意的是file和path属性只能选一个，不能同时存在
+  file: log.log

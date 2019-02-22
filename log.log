@@ -1,0 +1,227 @@
+2019-02-22 11:48:34.547  INFO 4300 --- [main] com.MmqbbApplication                     : Starting MmqbbApplication on DESKTOP-URRCNCE with PID 4300 (started by liuyg in D:\项目\mmqbb)
+2019-02-22 11:48:34.561  INFO 4300 --- [main] com.MmqbbApplication                     : The following profiles are active: pro
+2019-02-22 11:48:37.051  INFO 4300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb5890e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 11:48:37.313  INFO 4300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-02-22 11:48:37.332  INFO 4300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-22 11:48:37.332  INFO 4300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-22 11:48:37.338  INFO 4300 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;D:\maven\apache-maven-3.6.0\bin;C:\Users\liuyg\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-22 11:48:37.422  INFO 4300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-22 11:48:37.422  INFO 4300 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2819 ms
+2019-02-22 11:48:37.651  INFO 4300 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-02-22 11:48:37.748  INFO 4300 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-02-22 11:48:38.308  INFO 4300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2019-02-22 11:48:38.309  INFO 4300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myExecutor'
+2019-02-22 11:48:38.560  WARN 4300 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-02-22 11:48:38.777  INFO 4300 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-02-22 11:48:38.805  INFO 4300 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 11:48:38.883  INFO 4300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-02-22 11:48:38.885  INFO 4300 --- [main] com.MmqbbApplication                     : Started MmqbbApplication in 4.761 seconds (JVM running for 5.719)
+2019-02-22 11:48:39.576  INFO 4300 --- [RMI TCP Connection(2)-192.168.121.213] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 11:48:39.576  INFO 4300 --- [RMI TCP Connection(2)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-22 11:48:39.585  INFO 4300 --- [RMI TCP Connection(2)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-02-22 11:49:00.250  INFO 4300 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:49:00.250  INFO 4300 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:50:00.017  INFO 4300 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:50:00.017  INFO 4300 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:51:00.016  INFO 4300 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:51:00.017  INFO 4300 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:52:00.016  INFO 4300 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:52:00.016  INFO 4300 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:52:09.804  INFO 4300 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-02-22 11:52:09.808  INFO 4300 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myExecutor'
+2019-02-22 11:52:09.814  INFO 4300 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-02-22 11:52:12.608  INFO 8368 --- [main] com.MmqbbApplication                     : Starting MmqbbApplication on DESKTOP-URRCNCE with PID 8368 (started by liuyg in D:\项目\mmqbb)
+2019-02-22 11:52:12.611  INFO 8368 --- [main] com.MmqbbApplication                     : The following profiles are active: pro
+2019-02-22 11:52:14.909  INFO 8368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd7362ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 11:52:15.156  INFO 8368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-02-22 11:52:15.176  INFO 8368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-22 11:52:15.177  INFO 8368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-22 11:52:15.183  INFO 8368 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;D:\maven\apache-maven-3.6.0\bin;C:\Users\liuyg\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-22 11:52:15.262  INFO 8368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-22 11:52:15.263  INFO 8368 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2590 ms
+2019-02-22 11:52:15.499  INFO 8368 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-02-22 11:52:15.596  INFO 8368 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-02-22 11:52:16.022  INFO 8368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2019-02-22 11:52:16.023  INFO 8368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myExecutor'
+2019-02-22 11:52:16.272  WARN 8368 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-02-22 11:52:16.484  INFO 8368 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-02-22 11:52:16.511  INFO 8368 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 11:52:16.588  INFO 8368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-02-22 11:52:16.591  INFO 8368 --- [main] com.MmqbbApplication                     : Started MmqbbApplication in 4.477 seconds (JVM running for 5.318)
+2019-02-22 11:52:16.853  INFO 8368 --- [RMI TCP Connection(1)-192.168.121.213] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 11:52:16.853  INFO 8368 --- [RMI TCP Connection(1)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-22 11:52:16.864  INFO 8368 --- [RMI TCP Connection(1)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-02-22 11:53:00.473  INFO 8368 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:53:00.473  INFO 8368 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:54:00.017  INFO 8368 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:54:00.018  INFO 8368 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:55:00.014  INFO 8368 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:55:00.015  INFO 8368 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:55:09.932  INFO 8368 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-02-22 11:55:09.936  INFO 8368 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myExecutor'
+2019-02-22 11:55:09.940  INFO 8368 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-02-22 11:55:13.532  INFO 13724 --- [main] com.MmqbbApplication                     : Starting MmqbbApplication on DESKTOP-URRCNCE with PID 13724 (started by liuyg in D:\项目\mmqbb)
+2019-02-22 11:55:13.536  INFO 13724 --- [main] com.MmqbbApplication                     : The following profiles are active: pro
+2019-02-22 11:55:15.916  INFO 13724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$21a7dfec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 11:55:16.146  INFO 13724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-02-22 11:55:16.161  INFO 13724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-22 11:55:16.161  INFO 13724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-22 11:55:16.167  INFO 13724 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;D:\maven\apache-maven-3.6.0\bin;C:\Users\liuyg\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-22 11:55:16.267  INFO 13724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-22 11:55:16.267  INFO 13724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2657 ms
+2019-02-22 11:55:16.423  INFO 13724 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-02-22 11:55:16.587  INFO 13724 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-02-22 11:55:17.067  INFO 13724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2019-02-22 11:55:17.068  INFO 13724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'myExecutor'
+2019-02-22 11:55:17.340  WARN 13724 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-02-22 11:55:17.370  INFO 13724 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-02-22 11:55:17.549  INFO 13724 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-02-22 11:55:17.574  INFO 13724 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 11:55:17.649  INFO 13724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2019-02-22 11:55:17.651  INFO 13724 --- [main] com.MmqbbApplication                     : Started MmqbbApplication in 4.632 seconds (JVM running for 5.393)
+2019-02-22 11:55:17.956  INFO 13724 --- [RMI TCP Connection(3)-192.168.121.213] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 11:55:17.957  INFO 13724 --- [RMI TCP Connection(3)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-22 11:55:17.966  INFO 13724 --- [RMI TCP Connection(3)-192.168.121.213] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-02-22 11:56:00.221  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:56:00.221  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:57:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:57:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:58:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:58:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:59:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 11:59:00.020  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:00:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:00:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:01:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:01:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:02:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:02:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:03:00.022  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:03:00.022  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:04:00.020  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:04:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:05:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:05:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:06:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:06:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:07:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:07:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:08:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:08:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:09:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:09:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:10:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:10:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:11:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:11:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:12:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:12:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:13:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:13:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:14:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:14:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:15:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:15:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:16:00.023  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:16:00.023  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:17:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:17:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:18:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:18:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:19:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:19:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:20:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:20:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:21:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:21:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:22:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:22:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:23:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:23:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:24:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:24:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:25:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:25:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:26:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:26:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:27:00.054  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:27:00.054  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:28:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:28:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:29:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:29:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:30:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:30:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:31:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:31:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:32:00.013  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:32:00.013  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:33:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:33:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:34:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:34:00.020  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:35:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:35:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:36:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:36:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:37:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:37:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:38:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:38:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:39:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:39:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:40:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:40:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:41:00.042  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:41:00.042  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:42:00.059  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:42:00.059  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:43:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:43:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:44:00.052  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:44:00.052  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:45:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:45:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:46:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:46:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:47:00.034  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:47:00.034  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:48:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:48:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:49:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:49:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:50:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:50:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:51:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:51:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:52:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:52:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:53:00.025  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:53:00.025  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:53:04.063  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:54:00.041  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:54:00.041  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:55:00.028  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:55:00.028  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:56:00.030  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:56:00.030  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:57:00.025  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:57:00.025  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:58:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:58:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:59:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 12:59:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:00:00.019  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:00:00.019  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:01:00.023  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:01:00.023  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:02:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:02:00.020  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:03:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:03:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:04:00.014  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:04:00.014  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:05:00.018  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:05:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:06:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:06:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry location="D:\maven\Repositories\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar"/>
+    <context id="context1">
+        <!-- 指定生成的java文件的编码,没有直接生成到项目时中文可能会乱码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 这里的type里写的是你的实现类的类全路径 -->
+        <commentGenerator type="com.util.MyCommentGenerator">
+        </commentGenerator>
+        <!-- 数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://rm-uf6ut75jnz6zz57rsmo.mysql.rds.aliyuncs.com/mmqbb"
+                        userId="mmqbb" password="Liu564469223" />
+
+        <!-- 生成的包名和工程名 -->
+        <javaModelGenerator targetPackage="com.pojo"
+                            targetProject="src/main/java"/>
+        <!-- xml映射文件   -->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="src/main/resources" />
+        <!--  mapper接口    -->
+        <!--<javaClientGenerator targetPackage="com.dao"
+                            targetProject="src/main/java" type="XMLMAPPER" />-->
+
+        <!-- 数据库表 以及是否生成example-->
+        <table  tableName="mm_sys_gzh"
+                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+                enableSelectByExample="false" selectByExampleQueryId="false" >
+            <!-- 设置别名 -->
+            <!--
+            <columnOverride column="ds_id" property="dsId" />
+            <columnOverride column="ds_name" property="dsName" />
+            <columnOverride column="dt_name" property="dtName" />
+            <columnOverride column="login_name" property="loginName" />
+            <columnOverride column="login_pwd" property="loginPwd" />
+             -->
+        </table>
+    </context>
+</generatorConfiguration>

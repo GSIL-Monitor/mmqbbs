@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>请复制虚线框内容</title>
+</head>
+<script src="/js/jquery-1.7.2.min.js"></script>
+<script src="https://cdn.staticfile.org/clipboard.js/1.5.15/clipboard.min.js"></script>
+<style>
+    .cparea{
+        text-align: center;
+        font-family: Microsoft Yahei;
+        margin: -2em 0 0;
+    }
+    .kwd{
+        display: inline-block;
+        color: #272727;
+        background-color: #fff;
+        font-size: 1.1875em;
+        font-size: 1.1875em;
+        padding: .75em 1em;
+        border: 1px dashed #e60012;
+        -webkit-user-select:element;
+        margin: 2em;
+    }
+    .kwd span{
+        display: block;
+        border: 1px solid #fff;
+    }
+    .kdes{
+        display: inline-block;
+        color: #212121;
+        font-size: .875em;
+        padding-top: 0;
+    }
+    .kdes b{
+        color: #ed5353;
+        font-size: 1.25em;
+        padding-right: .1em;
+    }
+</style>
+<body>
+
+<div style="width: 100%;text-align: center"  >
+    <div data-clipboard-action="copy" data-clipboard-target="#kwd" class="kwd" id="kwd" th:text="${req}">
+    </div>
+    <div class="cparea">
+        <span class="kdes"><b>★</b>复制虚线框内容，打开淘♂寳♀</span>
+    </div>
+    <br>
+    <div id="btncopy" class="btn" data-clipboard-action="copy" data-clipboard-target="#kwd">点击复制</div>
+</div>
+
+</body>
+<script>
+    $(function(){
+        console.log(Clipboard);
+        var clipboard = new Clipboard('#btncopy');
+
+        clipboard.on('success', function(e) {
+           $('.btn').html("复制成功");
+        });
+
+        clipboard.on('error', function(e) {
+            $('.btn').html("复制失败");
+        });
+    })
+
+</script>
+</html>
