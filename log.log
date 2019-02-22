@@ -225,3 +225,22 @@
 2019-02-22 13:05:00.018  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
 2019-02-22 13:06:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
 2019-02-22 13:06:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:07:00.014  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:07:00.014  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:08:00.014  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:08:00.014  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:09:00.020  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:09:00.020  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:10:00.021  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:10:00.021  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:11:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:11:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:12:00.015  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:12:00.015  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:13:00.017  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:13:00.017  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:14:00.016  INFO 13724 --- [mmqbbExecutor-2] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:14:00.016  INFO 13724 --- [mmqbbExecutor-1] com.task.AsyncTaskExecute                : 异步同步订单操作
+2019-02-22 13:14:46.243  INFO 13724 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-02-22 13:14:46.246  INFO 13724 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'myExecutor'
+2019-02-22 13:14:46.250  INFO 13724 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
